@@ -755,7 +755,7 @@ def main() -> int:
         "--opacity",
         "-o",
         type=float,
-        default=1,
+        default=0.25,
         help="Opacidad global de la marca de agua (0.0 a 1.0). Default: 0.25",
     )
     args = parser.parse_args()

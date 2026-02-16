@@ -169,8 +169,8 @@ def main() -> int:
         "--opacity",
         "-o",
         type=float,
-        default=1.0,
-        help="Opacidad global (0..1). Se aplica a la ventana completa.",
+        default=0.25,
+        help="Opacidad global (0..1). Se aplica a la ventana completa. Default: 0.25",
     )
     args = parser.parse_args()
 
